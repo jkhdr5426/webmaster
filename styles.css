@@ -22,3 +22,37 @@ body{
   justify-content:space-between;
   gap:12px;
 }
+.site-header h1{font-size:1.1rem;margin:0}
+nav a{margin-left:12px;color:var(--muted);text-decoration:none}
+.hero{
+  max-width:var(--maxw);
+  margin:0 auto 18px;
+  padding:18px;
+  border:1px solid #eee;
+  border-radius:8px;
+}
+.hero h2{margin-top:0;color:var(--accent)}
+.hero img{
+  display:block;
+  max-width:280px;
+  margin-top:12px;
+  border-radius:6px;
+}
+.lede{font-weight:500}
+.cta{
+  display:inline-block;
+  margin-top:12px;
+  background:var(--accent);
+  color:#fff;
+  padding:8px 12px;
+  border-radius:6px;
+  text-decoration:none;
+}
+.about, .implementation{max-width:var(--maxw);margin:18px auto;padding:6px 2px}
+footer{max-width:var(--maxw);margin:24px auto;color:var(--muted);font-size:0.9rem}
+@media(min-width:800px){
+  .site-header{padding:6px 0}
+  .hero{display:flex;gap:18px;align-items:flex-start}
+  .hero img{margin-top:0}
+  .hero .lede{flex:1}
+}
