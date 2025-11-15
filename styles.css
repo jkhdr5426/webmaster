@@ -56,3 +56,20 @@ footer{max-width:var(--maxw);margin:24px auto;color:var(--muted);font-size:0.9re
   .hero img{margin-top:0}
   .hero .lede{flex:1}
 }
+
+li > a {
+    color: #1a73e8;       
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+li > a:hover {
+    color: #0b57d0;      
+    text-decoration: underline;
+}
+li > a:visited {
+    color: #5f3dc4;        
+}
+li > a:active {
+    color: #003c8f;
+}
