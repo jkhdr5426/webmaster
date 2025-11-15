@@ -1,0 +1,24 @@
+:root{
+  --accent:#f07a00;
+  --bg:#ffffff;
+  --text:#111;
+  --muted:#666;
+  --maxw:900px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.45;
+  padding:16px;
+}
+.site-header{
+  max-width:var(--maxw);
+  margin:0 auto 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
